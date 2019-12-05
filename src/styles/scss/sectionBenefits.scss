@@ -1,0 +1,99 @@
+.benefits {
+  width: 100%;
+
+  font-family: 'Montserrat', sans-serif;
+
+  &__header {
+    width: 35vw;
+    height: 5.42vw;
+    margin: 1.11vw auto 1.665vw auto;
+
+    font-size: 2.22vw;
+    font-weight: bold;
+    line-height: 2.71vw;
+    text-align: center;
+
+    color: #1A1A1A;
+
+    &::before {
+      content: "Why ";
+      font-weight: normal;
+    }
+
+    &::after {
+      content: " AppCo?";
+      font-weight: normal;
+    }
+  }
+
+  &__text {
+    width: 54.165vw;
+    height: 3.94vw;
+    margin: 0 auto;
+
+    font-size: 1.39vw;
+    line-height: 1.97vw;
+
+    text-align: center;
+
+    color: #7E7E7E;
+  }
+
+  &__wrapper {
+    width: 81.94vw;
+    margin: 2.78vw auto 7.986vw;
+
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.benefit {
+  width: 26.39vw;
+  height: 22.43vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0.278vw 1.11vw rgba(0, 0, 0, 0.16);
+  border-radius: 2.22vw;
+
+  &__img {
+    position: relative;
+    width: 7.361vw;
+    height: 6.666vw;
+    margin: 3.33vw auto 2.778vw;
+  }
+
+  &__bgImg {
+    width: 7.361vw;
+    height: 6.666vw;
+  }
+
+  &__fgImg {
+    width: 3.889vw;
+    height: 3.889vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    fill: #ffffff;
+}
+
+  &__header {
+    font-weight: bold;
+    font-size: 1.665vw;
+    line-height: 2.01vw;
+    text-align: center;
+
+    color: #1A1A1A;
+  }
+
+  &__text {
+    width: 21.94vw;
+    margin: 1.11vw auto 3.33vw;
+    font-size: 1.11vw;
+    line-height: 1.58vw;
+    text-align: center;
+
+    color: #7E7E7E;
+  }
+}
+

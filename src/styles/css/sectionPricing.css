@@ -1,0 +1,48 @@
+.pricing {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.pricing__title {
+  width: 40.27vw;
+  height: 5.42vw;
+  margin: 0 auto;
+  font-size: 2.22vw;
+  line-height: 2.71vw;
+  text-align: center;
+  color: #1A1A1A;
+}
+.pricing__title::first-line {
+  font-weight: bold;
+}
+.pricing__message {
+  width: 46.11vw;
+  margin: 1.667vw auto 2.22vw;
+  font-size: 1.39vw;
+  line-height: 1.97vw;
+  text-align: center;
+  color: #7E7E7E;
+}
+.pricing__packageWrap {
+  width: 81.94vw;
+  margin: 2.78vw auto 7.986vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.package {
+  width: 26.39vw;
+  height: 43.54vw;
+  border: 0.139vw solid #F1F1F1;
+  box-sizing: border-box;
+  border-radius: 2.22vw;
+}
+.package__title {
+  margin: 2.22vw 0 1.32vw;
+  font-weight: bold;
+  font-size: 1.667vw;
+  line-height: 2.01vw;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+/*# sourceMappingURL=sectionPricing.css.map */
