@@ -20,7 +20,7 @@ const SectionWithNoteBook = () => (
     <img
       className="wNoteBook__img"
       src="https://github.com/RavenVol/BitMedia/blob/master/public/images/macbook.png?raw=true"
-      alt="NoteBook Image"
+      alt="NoteBook"
     />
   </section>
 )

@@ -16,6 +16,9 @@ const MainPage = () => {
         <SectionWithNoteBook />
         <SectionPricing />
       </main>
+      <footer>
+        
+      </footer>
     </>
   )
 }

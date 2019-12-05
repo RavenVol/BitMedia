@@ -24,9 +24,27 @@
 }
 .pricing__packageWrap {
   width: 81.94vw;
-  margin: 2.78vw auto 7.986vw;
+  margin: 2.78vw auto 2.22vw;
   display: flex;
   justify-content: space-between;
+}
+.pricing__aditional {
+  display: block;
+  font-size: 1.39vw;
+  line-height: 1.971;
+  font-weight: bold;
+  text-decoration: none;
+  color: #255D8B;
+  text-align: center;
+}
+.pricing__aditional:hover {
+  text-decoration: underline;
+}
+.pricing__aditional::before {
+  content: "If you need custom services or Need more? ";
+  cursor: text;
+  font-weight: normal;
+  color: #7E7E7E;
 }
 
 .package {
@@ -35,14 +53,50 @@
   border: 0.139vw solid #F1F1F1;
   box-sizing: border-box;
   border-radius: 2.22vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 500ms ease;
 }
 .package__title {
-  margin: 2.22vw 0 1.32vw;
+  margin-top: 2.22vw;
   font-weight: bold;
   font-size: 1.667vw;
   line-height: 2.01vw;
   text-align: center;
   color: #1A1A1A;
+}
+.package__img {
+  width: 14.58vw;
+  height: auto;
+  margin-top: 1.32vw;
+}
+.package__price {
+  margin-top: 1.11vw;
+  font-weight: bold;
+  font-size: 3.33vw;
+  line-height: 4.1vw;
+  color: #1A1A1A;
+}
+.package__services {
+  margin-top: 3.33vw;
+  font-size: 1.11vw;
+  line-height: 1.81vw;
+  text-align: center;
+  color: #7E7E7E;
+}
+.package__button {
+  margin-top: 1.667vw;
+  width: 15.278vw;
+  height: 3.889vw;
+  background: #3A80BA;
+  border-radius: 0.556vw;
+  font-size: 1.11vw;
+  text-align: center;
+  color: #FFFFFF;
+}
+.package:hover {
+  box-shadow: 0px 0.278vw 1.11vw rgba(0, 0, 0, 0.16);
 }
 
 /*# sourceMappingURL=sectionPricing.css.map */

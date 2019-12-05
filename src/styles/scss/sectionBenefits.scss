@@ -1,6 +1,5 @@
 .benefits {
   width: 100%;
-
   font-family: 'Montserrat', sans-serif;
 
   &__header {
@@ -55,6 +54,9 @@
   box-shadow: 0px 0.278vw 1.11vw rgba(0, 0, 0, 0.16);
   border-radius: 2.22vw;
 
+  transition: 300ms ease;
+
+
   &__img {
     position: relative;
     width: 7.361vw;
@@ -94,6 +96,10 @@
     text-align: center;
 
     color: #7E7E7E;
+  }
+
+  &:hover {
+    transform: scale(1.05);
   }
 }
 
