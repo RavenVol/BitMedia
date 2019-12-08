@@ -1,0 +1,28 @@
+.statsFooter {
+  width: 100%;
+  background-color: #1C3B55;
+}
+.statsFooter__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 81.94vw;
+  height: 3.96vw;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+}
+.statsFooter__logo {
+  font-size: 1.667vw;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.statsFooter__logo:hover {
+  text-decoration: underline;
+}
+.statsFooter__copyName, .statsFooter__copyDate {
+  font-size: 1.11vw;
+}
+
+/*# sourceMappingURL=statsFooter.css.map */

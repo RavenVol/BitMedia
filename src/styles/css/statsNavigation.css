@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.statsNav {
+  display: flex;
+  direction: row;
+  font-family: "Montserrat", sans-serif;
+}
+.statsNav__item::after {
+  content: "  >  ";
+  font-size: 1.11vw;
+  line-height: 1.389vw;
+  color: #CCCCCC;
+}
+.statsNav__link {
+  font-size: 1.11vw;
+  line-height: 1.389vw;
+  text-decoration: none;
+  color: #CCCCCC;
+}
+.statsNav__link:hover {
+  color: #3A80BA;
+}
+.statsNav__link--last {
+  color: #3A80BA;
+}
+
+/*# sourceMappingURL=statsNavigation.css.map */

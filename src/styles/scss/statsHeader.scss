@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+.statsHeader {
+  height: 4.86vw;
+  background-color: $colorMainBlue;
+
+  &__logo {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: $sizePageMargin;
+    font-size: $size40;
+    line-height: 4.86vw;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+

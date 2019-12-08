@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.stats {
+  &__header {
+    font-family: 'Montserrat', sans-serif;
+    margin: $size24 0 $size16;
+
+    font-weight: bold;
+    font-size: $size32;
+    line-height: $size40;
+
+    color: $colorTextBlack;
+  }
+
+  &__paginator {
+    width: 100%;
+    margin: $size24;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.tableWrap {
+  width: $sizePage;
+  box-sizing: border-box;
+  margin: $size16 auto $size24;
+  overflow: hidden;
+  border-radius: $size8;
+}
+
+.statsTable {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  border-collapse: separate;
+  border-spacing: $size20/10 0;
+
+  &__head {
+
+  }
+
+  &__headRow {
+
+  }
+
+  &__headDash {
+    height: $size48;
+    font-size: $size16;
+    background-color: $colorMainBlue;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  &__body {
+
+  }
+
+  &__bodyRow {
+    background: #FBFBFB;
+    cursor: pointer;
+
+    &:nth-child(even) {
+      background-color: #F1F1F1;
+    }
+
+    &:hover {
+      background-color: #D1D1D1;
+    }
+  }
+
+  &__bodyDash {
+    height: $size32;
+    padding: 0 $size40/10;
+    font-size: $size16;
+    color: $colorTextBlack;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+
+
+
+

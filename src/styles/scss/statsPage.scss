@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+.statsPageHeader{
+  width: 100%;
+
+  &__navigation {
+    width: $sizePage;
+    margin: $size16 auto $size24;
+  }
+}
+
+.statsPageMain {
+  width: $sizePage;
+  margin: 0 auto;
+
+  font-family: 'Montserrat', sans-serif;
+}
+

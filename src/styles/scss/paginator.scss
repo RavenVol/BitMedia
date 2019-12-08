@@ -1,0 +1,47 @@
+@import './variables.scss';
+
+.paginator {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $size16;
+  color: $colorTextBlack;
+
+  display: flex;
+  flex-direction: row;
+
+  &__Btn {
+    width: $size48;
+    height: $size48;
+    box-sizing: border-box;
+    border: $size20/10 solid #000000;
+    border-radius: $size8;
+    background-color: #FFFFFF;
+    margin: 0 $size40/10;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: $size48;
+    &--current {
+      background-color: $colorMainBlue;
+      color: #FFFFFF;
+    }
+
+    &:hover {
+      background-color: $colorMainBlue;
+      color: #FFFFFF;
+    }
+  }
+
+  &__noBtn{
+    width: $size48;
+    height: $size48;
+    box-sizing: border-box;
+    border: $size20/10 solid #F1F1F1;
+    border-radius: $size8;
+    background-color: #FFFFFF;
+    color: #F1F1F1;
+    margin: 0 $size40/10;
+    cursor: not-allowed;
+  }
+}
+
+

@@ -1,0 +1,32 @@
+@import './variables.scss';
+
+.subscribe {
+  width: 40.28vw;
+  height: 4.44vw;
+  background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  box-sizing: border-box;
+  padding: 0.31vw;
+  border-radius: 0.69vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__input {
+    width: 27vw;
+    padding-left: 1.25vw;
+    font-size: $size16;
+    border: none;
+  }
+
+  &__button {
+    width: 12.22vw;
+    height: 3.81vw;
+    background: $colorMainBlue;
+    border-radius: $size8;
+    color: #ffffff;
+  }
+}
+
+

@@ -1,0 +1,27 @@
+.subscribe {
+  width: 40.28vw;
+  height: 4.44vw;
+  background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  box-sizing: border-box;
+  padding: 0.31vw;
+  border-radius: 0.69vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subscribe__input {
+  width: 27vw;
+  padding-left: 1.25vw;
+  font-size: 1.11vw;
+  border: none;
+}
+.subscribe__button {
+  width: 12.22vw;
+  height: 3.81vw;
+  background: #3A80BA;
+  border-radius: 0.555vw;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=mainSubscribeBar.css.map */

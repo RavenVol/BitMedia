@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Phone from './Phone';
-import '../../styles/css/header.css';
+import '../../styles/css/mainHeader.css';
 
 const Header = () => (
   <div className="header">
@@ -14,9 +15,11 @@ const Header = () => (
     <p className="header__message">
       Our design projects are fresh and simple and will benefit your business greatly. Learn more about our work!
     </p>
-    <button className="header__button" type="button">
-      View Stats
-    </button>
+    <Link to="/stats">
+      <button className="header__button" type="button">
+        View Stats
+      </button>
+    </Link>
     <div className="header__phone">
       <Phone />
     </div>

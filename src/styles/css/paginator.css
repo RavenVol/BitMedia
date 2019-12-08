@@ -1,0 +1,41 @@
+.paginator {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.11vw;
+  color: #1A1A1A;
+  display: flex;
+  flex-direction: row;
+}
+.paginator__Btn {
+  width: 3.33vw;
+  height: 3.33vw;
+  box-sizing: border-box;
+  border: 0.1389vw solid #000000;
+  border-radius: 0.555vw;
+  background-color: #FFFFFF;
+  margin: 0 0.2778vw;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3.33vw;
+}
+.paginator__Btn--current {
+  background-color: #3A80BA;
+  color: #FFFFFF;
+}
+.paginator__Btn:hover {
+  background-color: #3A80BA;
+  color: #FFFFFF;
+}
+.paginator__noBtn {
+  width: 3.33vw;
+  height: 3.33vw;
+  box-sizing: border-box;
+  border: 0.1389vw solid #F1F1F1;
+  border-radius: 0.555vw;
+  background-color: #FFFFFF;
+  color: #F1F1F1;
+  margin: 0 0.2778vw;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=paginator.css.map */

@@ -1,7 +1,7 @@
 import React from 'react';
 import SubscribeBar from './SubscribeBar';
 
-import '../../styles/css/footer.css';
+import '../../styles/css/mainFooter.css';
 
 const Footer = () => (
   <div className="footer">

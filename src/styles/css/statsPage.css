@@ -1,0 +1,15 @@
+.statsPageHeader {
+  width: 100%;
+}
+.statsPageHeader__navigation {
+  width: 81.94vw;
+  margin: 1.11vw auto 1.667vw;
+}
+
+.statsPageMain {
+  width: 81.94vw;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=statsPage.css.map */

@@ -1,0 +1,84 @@
+@import './variables.scss';
+
+.header {
+  position: relative;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSI2NTUiIHZpZXdCb3g9IjAgMCAxNDQwIDY1NSIgZmls%0D%0AbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAg%0D%0AMEgxNDQwVjEwNC4yNzJMMTM3OC4yIDIxNy40OTNDMTMwOC4xMSAzNDUuODg4IDExNzMuNDEgNDI1%0D%0ALjc3OCAxMDI3LjAyIDQyNS43NzhIODk0LjgzN0M4MTAuNDQ2IDQyNS43NzggNzI4LjIxOCA0NTIu%0D%0ANDQxIDY1OS45MTUgNTAxLjk1M0w1NTMuODY5IDU3OC44MjRDNDA0LjU3NSA2ODcuMDQ2IDIwMC41%0D%0ANTggNjc5LjI0OSA1OS45NzY3IDU1OS45NDhMMCA1MDkuMDVWMFoiIGZpbGw9InVybCgjcGFpbnQw%0D%0AX2xpbmVhcikiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhciIgeDE9%0D%0AIjMxIiB5MT0iNjguNzkwOSIgeDI9IjE0MTIuNTIiIHkyPSIxMTkuMjcxIiBncmFkaWVudFVuaXRz%0D%0APSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiMyNTVEOEIiLz4KPHN0b3Agb2Zm%0D%0Ac2V0PSIxIiBzdG9wLWNvbG9yPSIjM0E4MEJBIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4K%0D%0APC9zdmc+Cg==");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 45.49vw;
+
+  font-family: 'Montserrat', sans-serif;
+
+  &__logo {
+    position: absolute;
+    top: $size24;
+    left: $sizePageMargin;
+    font-size: $size40;
+    line-height: 3.4vw;
+
+    color: #FFFFFF;
+  }
+
+  &__title {
+    position: absolute;
+    width: 40.69vw;
+    height: 8.19vw;
+    left: $sizePageMargin;
+    top: 8.4vw;
+
+    font-size: $size48;
+    line-height: 4.1vw;
+
+    color: #FFFFFF;
+
+    &::before {
+      content: "Brainstorming ";
+      font-weight: bold;
+    }
+  }
+
+  &__message {
+    position: absolute;
+    width: 40.28vw;
+    height: 3.94vw;
+    left: $sizePageMargin;
+    top: 18.26vw;
+
+    font-size: $size20;
+    line-height: 1.97vw;
+
+    color: #FFFFFF;
+  }
+
+  &__button {
+    position: absolute;
+    left: $sizePageMargin;
+    top: 24.375vw;
+    width: 10.69vw;
+    height: 3.89vw;
+
+    font-size: $size16;
+    color: $colorMainBlue;
+
+    background: #FFFFFF;
+    border-radius: $size8;
+    transition: 300ms ease;
+
+    &:hover {
+      font-size: $size24;
+      color: $colorMainDarkBlue;
+    }
+  }
+
+  &__phone {
+    position: absolute;
+    top: 5vw;
+    right: 16.1vw;
+
+    width: 19.185vw;
+    height: 38.8vw;
+  }
+}
+
+

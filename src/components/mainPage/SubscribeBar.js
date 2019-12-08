@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../styles/css/subscribeBar.css';
+import '../../styles/css/mainSubscribeBar.css';
 
 const SubscribeBar = () => (
   <form

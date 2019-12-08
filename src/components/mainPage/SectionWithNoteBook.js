@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../styles/css/sectionWithNoteBook.css';
+import '../../styles/css/mainSectionWithNoteBook.css';
 
 const SectionWithNoteBook = () => (
   <section className="wNoteBook">

@@ -1,0 +1,35 @@
+@import './variables.scss';
+
+.statsNav {
+  display: flex;
+  direction: row;
+
+  font-family: 'Montserrat', sans-serif;
+
+  &__item {
+    &::after {
+      content: "\00a0\00a0>\00a0\00a0";
+      font-size: $size16;
+      line-height: $size20;
+
+      color: #CCCCCC;
+    }
+  }
+
+  &__link {
+    font-size: $size16;
+    line-height: $size20;
+    text-decoration: none;
+
+    color: #CCCCCC;
+
+    &:hover {
+      color: $colorMainBlue;
+    }
+
+    &--last {
+      color: $colorMainBlue;
+    }
+  }
+}
+

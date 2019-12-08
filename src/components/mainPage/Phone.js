@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../styles/css/phone.css';
+import '../../styles/css/mainPhone.css';
 
 const Phone = () => (
   <div className="phone">

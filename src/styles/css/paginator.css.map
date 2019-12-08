@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/paginator.scss","../scss/variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA,WCEO;EDDP,OCHe;EDKf;EACA;;AAEA;EACE;EACA,QCDK;EDEL;EACA;EACA,eCVI;EDWJ;EACA;EACA;EACA;EACA;EACA,aCVK;;ADWL;EACE,kBCvBU;EDwBV;;AAGF;EACE,kBC5BU;ED6BV;;AAIJ;EACE,OCvBK;EDwBL,QCxBK;EDyBL;EACA;EACA,eCjCI;EDkCJ;EACA;EACA;EACA","file":"paginator.css"}

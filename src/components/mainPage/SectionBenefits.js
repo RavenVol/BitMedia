@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../styles/css/sectionBenefits.css';
+import '../../styles/css/mainSectionBenefits.css';
 
 const SectionBenefits = () => (
   <section className="benefits">

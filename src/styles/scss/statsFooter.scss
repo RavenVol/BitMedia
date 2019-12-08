@@ -1,0 +1,34 @@
+@import './variables.scss';
+
+.statsFooter {
+  width: 100%;
+  background-color: $colorFooterBlue;
+
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: $sizePage;
+    height: 3.96vw;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+
+  &__logo {
+    font-size: $size24;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__copyName, &__copyDate {
+    font-size: $size16;
+  }
+}
+
+

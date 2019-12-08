@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../styles/css/sectionPricing.css';
+import '../../styles/css/mainSectionPricing.css';
 
 const SectionPricing = () => (
   <article className="pricing">
