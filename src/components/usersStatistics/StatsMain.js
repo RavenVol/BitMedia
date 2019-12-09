@@ -25,11 +25,11 @@ class StatsMain extends React.Component {
     let reply = {};
 
     if (!page) {
-      reply = await getDataFromServer(`http://localhost:5123/api/stats/1`);
+      reply = await getDataFromServer(`https://appco-api-serv.herokuapp.com/api/stats/1`);
     } else if (page === this.state.currPage) {
       return;
     } else {
-      reply = await getDataFromServer(`http://localhost:5123/api/stats/${page}`);
+      reply = await getDataFromServer(`https://appco-api-serv.herokuapp.com/api/stats/${page}`);
       currPage = page;
     }
 

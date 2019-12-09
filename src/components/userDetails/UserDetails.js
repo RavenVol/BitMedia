@@ -91,7 +91,7 @@ class UserDetails extends React.Component {
 
   retriveData = async() => {
     const {userId, startDate, endDate} = this.state;
-    const userStat = await getDataFromServer(`http://localhost:5123/api/user/id:${userId}/start:${startDate}/end:${endDate}`);
+    const userStat = await getDataFromServer(`https://appco-api-serv.herokuapp.com/api/user/id:${userId}/start:${startDate}/end:${endDate}`);
 
     if (userStat.warn === "OK") {
       this.setState({

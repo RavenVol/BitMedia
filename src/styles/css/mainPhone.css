@@ -17,6 +17,17 @@
   border: 1px solid #F0F0F0;
   border-radius: 3vw;
 }
+.phone__screen {
+  background-image: url("https://github.com/RavenVol/BitMedia/blob/dev/public/images/phoneScreen.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  height: 90%;
+  position: absolute;
+  left: 50%;
+  bottom: 1vw;
+  transform: translateX(-50%);
+}
 .phone__speacker {
   position: absolute;
   top: 2.9%;
@@ -35,10 +46,6 @@
   background-color: #ffffff;
   border: 0.13vw solid #000000;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 .phone__button {
   position: absolute;
