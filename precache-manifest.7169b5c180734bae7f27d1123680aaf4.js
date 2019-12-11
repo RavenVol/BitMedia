@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eec886025bf2e9c22df80aaf0ceda4f3",
+    "revision": "7f2da592eb4bb631539229cfe1ef80e6",
     "url": "/BitMedia/index.html"
   },
   {
-    "revision": "a2d1e4f79b1e998ac81c",
+    "revision": "909aed2b171afa9b34c3",
     "url": "/BitMedia/static/css/main.6077ff9e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BitMedia/static/js/2.ebe735af.chunk.js"
   },
   {
-    "revision": "a2d1e4f79b1e998ac81c",
-    "url": "/BitMedia/static/js/main.d47d3fde.chunk.js"
+    "revision": "909aed2b171afa9b34c3",
+    "url": "/BitMedia/static/js/main.5f17af15.chunk.js"
   },
   {
     "revision": "79cca6e1c4bf455873f5",

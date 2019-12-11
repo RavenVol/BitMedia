@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/BitMedia/static/css/main.6077ff9e.chunk.css",
-    "main.js": "/BitMedia/static/js/main.d47d3fde.chunk.js",
-    "main.js.map": "/BitMedia/static/js/main.d47d3fde.chunk.js.map",
+    "main.js": "/BitMedia/static/js/main.5f17af15.chunk.js",
+    "main.js.map": "/BitMedia/static/js/main.5f17af15.chunk.js.map",
     "runtime~main.js": "/BitMedia/static/js/runtime~main.78365743.js",
     "runtime~main.js.map": "/BitMedia/static/js/runtime~main.78365743.js.map",
     "static/js/2.ebe735af.chunk.js": "/BitMedia/static/js/2.ebe735af.chunk.js",
     "static/js/2.ebe735af.chunk.js.map": "/BitMedia/static/js/2.ebe735af.chunk.js.map",
     "index.html": "/BitMedia/index.html",
-    "precache-manifest.ab4ef8606ae291bac8063ccbddac885a.js": "/BitMedia/precache-manifest.ab4ef8606ae291bac8063ccbddac885a.js",
+    "precache-manifest.7169b5c180734bae7f27d1123680aaf4.js": "/BitMedia/precache-manifest.7169b5c180734bae7f27d1123680aaf4.js",
     "service-worker.js": "/BitMedia/service-worker.js",
     "static/css/main.6077ff9e.chunk.css.map": "/BitMedia/static/css/main.6077ff9e.chunk.css.map"
   }
