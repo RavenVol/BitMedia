@@ -10,7 +10,7 @@ class StatsMain extends React.Component {
 
     this.state = {
       usersStats: [],
-      currPage: 1,
+      currPage: 0,
       pagesQtty: 1,
     }
   }
@@ -45,7 +45,9 @@ class StatsMain extends React.Component {
       return (<div>Loading...</div>)
     }
 
-    this.handleHewPage();
+    if (+this.props.match.params.page && +this.props.match.params.page !== this.state.currPage) {
+      this.handleHewPage();
+    }
 
     return (
       <>
